@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); // rem -> advantage over pixels (1rem = 16px);
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(102, 133, 190);
+    font-size: $s-size;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+{
+    "name": "expensify",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "serve": "live-server public/",
+        "build": "webpack",
+        "dev-server": "webpack-dev-server"
+    },
+    "homepage": "/",
+    "dependencies": {
+        "@babel/core": "^7.16.0",
+        "babel-cli": "^6.26.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "css-loader": "^6.5.1",
+        "live-server": "^1.2.1",
+        "node-sass": "^6.0.1",
+        "normalize.css": "^8.0.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-modal": "^3.14.4",
+        "react-router": "^6.0.2",
+        "react-router-dom": "^6.0.2",
+        "sass-loader": "^12.3.0",
+        "style-loader": "^3.3.1",
+        "validator": "^13.7.0",
+        "webpack": "^5.64.0",
+        "webpack-dev-server": "^4.5.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.16.0",
+        "@babel/preset-react": "^7.16.0",
+        "babel-loader": "^8.2.3",
+        "webpack-cli": "^4.9.1"
+    }
+}
